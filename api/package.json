@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "0.22.4",
+        "prettier": "3.4.2"
+    },
+    "prettier": {
+        "parser": "php",
+        "plugins": [
+            "@prettier/plugin-php"
+        ],
+        "braceStyle": "1tbs",
+        "printWidth": 160
+    }
+}

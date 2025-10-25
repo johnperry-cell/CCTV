@@ -1,0 +1,50 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "npm run postinstall & nuxt dev --open",
+    "cleanup": "npx nuxi cleanup",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@datasert/cronjs-matcher": "^1.4.0",
+    "@iconify-json/tabler": "^1.2.22",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/ui": "^3.3.5",
+    "@pinia/nuxt": "^0.11.2",
+    "@vite-pwa/nuxt": "^1.0.4",
+    "@vueuse/core": "^13.6.0",
+    "@vueuse/integrations": "^13.6.0",
+    "@vueuse/nuxt": "^13.6.0",
+    "apexcharts": "^5.3.3",
+    "axios": "^1.11.0",
+    "dayjs-nuxt": "^2.1.11",
+    "devtools-detector": "^2.0.23",
+    "encrypt-storage": "^2.14.7",
+    "focus-trap": "^7.6.5",
+    "fuse.js": "^7.1.0",
+    "json-editor-vue": "^0.18.1",
+    "nuxt": "^4.1.2",
+    "nuxt-gtag": "^3.0.3",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate-2": "^2.0.31",
+    "pinia-shared-state": "^1.0.1",
+    "v-calendar": "^3.1.2",
+    "vue": "^3.5.18",
+    "vue-accessible-color-picker": "^5.3.1",
+    "vue3-apexcharts": "^1.8.0",
+    "zod": "^4.0.17"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "sass-embedded": "^1.90.0",
+    "tailwind-scrollbar": "^4.0.2",
+    "tailwindcss": "^4.1.12"
+  }
+}

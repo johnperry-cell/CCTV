@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("./motiva-sans/MotivaSans-Thin.eot");
+  src:
+    url("./motiva-sans/MotivaSans-Thin.eot") format("embedded-opentype"),
+    url("./motiva-sans/MotivaSans-Thin.woff2") format("woff2"),
+    url("./motiva-sans/MotivaSans-Thin.woff") format("woff"),
+    url("./motiva-sans/MotivaSans-Thin.ttf") format("truetype"),
+    url("./motiva-sans/MotivaSans-Thin.svg#MotivaSansThin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("./motiva-sans/MotivaSans-Light.eot");
+  src:
+    url("./motiva-sans/MotivaSans-Light.eot") format("embedded-opentype"),
+    url("./motiva-sans/MotivaSans-Light.woff2") format("woff2"),
+    url("./motiva-sans/MotivaSans-Light.woff") format("woff"),
+    url("./motiva-sans/MotivaSans-Light.ttf") format("truetype"),
+    url("./motiva-sans/MotivaSans-Light.svg#MotivaSansLight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("./motiva-sans/MotivaSans-Regular.eot");
+  src:
+    url("./motiva-sans/MotivaSans-Regular.eot") format("embedded-opentype"),
+    url("./motiva-sans/MotivaSans-Regular.woff2") format("woff2"),
+    url("./motiva-sans/MotivaSans-Regular.woff") format("woff"),
+    url("./motiva-sans/MotivaSans-Regular.ttf") format("truetype"),
+    url("./motiva-sans/MotivaSans-Regular.svg#MotivaSansRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("./motiva-sans/MotivaSans-Medium.eot");
+  src:
+    url("./motiva-sans/MotivaSans-Medium.eot") format("embedded-opentype"),
+    url("./motiva-sans/MotivaSans-Medium.woff2") format("woff2"),
+    url("./motiva-sans/MotivaSans-Medium.woff") format("woff"),
+    url("./motiva-sans/MotivaSans-Medium.ttf") format("truetype"),
+    url("./motiva-sans/MotivaSans-Medium.svg#MotivaSansMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("./motiva-sans/MotivaSans-Bold.eot");
+  src:
+    url("./motiva-sans/MotivaSans-Bold.eot") format("embedded-opentype"),
+    url("./motiva-sans/MotivaSans-Bold.woff2") format("woff2"),
+    url("./motiva-sans/MotivaSans-Bold.woff") format("woff"),
+    url("./motiva-sans/MotivaSans-Bold.ttf") format("truetype"),
+    url("./motiva-sans/MotivaSans-Bold.svg#MotivaSansBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("./motiva-sans/MotivaSans-ExtraBold.eot");
+  src:
+    url("./motiva-sans/MotivaSans-ExtraBold.eot") format("embedded-opentype"),
+    url("./motiva-sans/MotivaSans-ExtraBold.woff2") format("woff2"),
+    url("./motiva-sans/MotivaSans-ExtraBold.woff") format("woff"),
+    url("./motiva-sans/MotivaSans-ExtraBold.ttf") format("truetype"),
+    url("./motiva-sans/MotivaSans-ExtraBold.svg#MotivaSansExtraBold")
+      format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("./motiva-sans/MotivaSans-Black.eot");
+  src:
+    url("./motiva-sans/MotivaSans-Black.eot") format("embedded-opentype"),
+    url("./motiva-sans/MotivaSans-Black.woff2") format("woff2"),
+    url("./motiva-sans/MotivaSans-Black.woff") format("woff"),
+    url("./motiva-sans/MotivaSans-Black.ttf") format("truetype"),
+    url("./motiva-sans/MotivaSans-Black.svg#MotivaSansBlack") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}

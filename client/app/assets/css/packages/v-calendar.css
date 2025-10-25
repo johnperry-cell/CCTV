@@ -1,0 +1,29 @@
+@theme inline {
+  --vc-gray-50: var(--color-neutral-50);
+  --vc-gray-100: var(--color-neutral-100);
+  --vc-gray-200: var(--color-neutral-200);
+  --vc-gray-300: var(--color-neutral-300);
+  --vc-gray-400: var(--color-neutral-400);
+  --vc-gray-500: var(--color-neutral-500);
+  --vc-gray-600: var(--color-neutral-600);
+  --vc-gray-700: var(--color-neutral-700);
+  --vc-gray-800: var(--color-neutral-800);
+  --vc-gray-900: var(--color-neutral-900);
+}
+
+.vc-primary {
+  --vc-accent-50: var(--color-primary-50);
+  --vc-accent-100: var(--color-primary-100);
+  --vc-accent-200: var(--color-primary-200);
+  --vc-accent-300: var(--color-primary-300);
+  --vc-accent-400: var(--color-primary-400);
+  --vc-accent-500: var(--color-primary-500);
+  --vc-accent-600: var(--color-primary-600);
+  --vc-accent-700: var(--color-primary-700);
+  --vc-accent-800: var(--color-primary-800);
+  --vc-accent-900: var(--color-primary-900);
+}
+
+.vc-dark {
+  --vc-select-bg: var(--vc-neutral-500);
+}

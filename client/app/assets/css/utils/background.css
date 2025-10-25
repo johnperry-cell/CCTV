@@ -1,0 +1,33 @@
+@theme inline {
+  --checkered-background:
+    linear-gradient(45deg, rgba(204, 204, 204, 0.5) 25%, transparent 25%),
+    linear-gradient(135deg, rgba(204, 204, 204, 0.5) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(204, 204, 204, 0.5) 75%),
+    linear-gradient(135deg, transparent 75%, rgba(204, 204, 204, 0.5) 75%) !important;
+
+  --checkered-size-xs: 14px 14px;
+  --checkered-size-sm: 20px 20px;
+  --checkered-size-md: 30px 30px;
+  --checkered-size-lg: 40px 40px;
+  --checkered-size-xl: 50px 50px;
+  --checkered-size-2xl: 60px 60px;
+  --checkered-size-3xl: 70px 70px;
+  --checkered-size-4xl: 80px 80px;
+  --checkered-size-5xl: 90px 90px;
+
+  --checkered-position-xs: 0 0, 7px 0, 7px -7px, 0px 7px;
+  --checkered-position-sm: 0 0, 10px 0, 10px -10px, 0px 10px;
+  --checkered-position-md: 0 0, 15px 0, 15px -15px, 0px 15px;
+  --checkered-position-lg: 0 0, 20px 0, 20px -20px, 0px 20px;
+  --checkered-position-xl: 0 0, 25px 0, 25px -25px, 0px 25px;
+  --checkered-position-2xl: 0 0, 30px 0, 30px -30px, 0px 30px;
+  --checkered-position-3xl: 0 0, 35px 0, 35px -35px, 0px 35px;
+  --checkered-position-4xl: 0 0, 40px 0, 40px -40px, 0px 40px;
+  --checkered-position-5xl: 0 0, 45px 0, 45px -45px, 0px 45px;
+}
+
+@utility checkered-* {
+  background-image: var(--checkered-background);
+  background-size: --value(--checkered-size-*);
+  background-position: --value(--checkered-position-*);
+}

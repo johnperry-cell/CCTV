@@ -1,0 +1,27 @@
+.layout-border--b {
+  @apply border-b border-neutral-100 dark:border-neutral-700;
+}
+.layout-border--r {
+  @apply border-r border-neutral-100 dark:border-neutral-700;
+}
+.layout-border--l {
+  @apply border-l border-neutral-100 dark:border-neutral-700;
+}
+
+.checkbox-label:has(input:checked) {
+  @apply border-primary-500 bg-primary-500/10;
+}
+
+input[type="number"].appearance-none {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    appearance: none;
+  }
+}
+
+.table-hover {
+  @apply hover:bg-gray-200;
+}

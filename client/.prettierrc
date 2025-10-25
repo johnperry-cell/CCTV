@@ -1,0 +1,17 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "ui",
+    "active-class",
+    "inactive-class",
+    "enter-from-class",
+    "leave-to-class",
+    "enter-active-clas",
+    "leave-active-class",
+    "enter-to-class",
+    "leave-from-class"
+  ]
+}

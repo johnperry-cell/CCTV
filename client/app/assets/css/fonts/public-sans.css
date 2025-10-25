@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-thin.eot");
+  src:
+    url("./public-sans/public-sans-thin.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-thin.woff2") format("woff2"),
+    url("./public-sans/public-sans-thin.woff") format("woff"),
+    url("./public-sans/public-sans-thin.ttf") format("truetype"),
+    url("./public-sans/public-sans-thin.svg#PublicSansThin") format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-thin-italic.eot");
+  src:
+    url("./public-sans/public-sans-thin-italic.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-thin-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-thin-italic.woff") format("woff"),
+    url("./public-sans/public-sans-thin-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-thin-italic.svg#PublicSansThinItalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-extra-light.eot");
+  src:
+    url("./public-sans/public-sans-extra-light.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-extra-light.woff2") format("woff2"),
+    url("./public-sans/public-sans-extra-light.woff") format("woff"),
+    url("./public-sans/public-sans-extra-light.ttf") format("truetype"),
+    url("./public-sans/public-sans-extra-light.svg#PublicSansExtraLight")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-extra-light-italic.eot");
+  src:
+    url("./public-sans/public-sans-extra-light-italic.eot")
+      format("embedded-opentype"),
+    url("./public-sans/public-sans-extra-light-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-extra-light-italic.woff") format("woff"),
+    url("./public-sans/public-sans-extra-light-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-extra-light-italic.svg#PublicSansExtraLightItalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-light.eot");
+  src:
+    url("./public-sans/public-sans-light.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-light.woff2") format("woff2"),
+    url("./public-sans/public-sans-light.woff") format("woff"),
+    url("./public-sans/public-sans-light.ttf") format("truetype"),
+    url("./public-sans/public-sans-light.svg#PublicSansLight") format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-light-italic.eot");
+  src:
+    url("./public-sans/public-sans-light-italic.eot")
+      format("embedded-opentype"),
+    url("./public-sans/public-sans-light-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-light-italic.woff") format("woff"),
+    url("./public-sans/public-sans-light-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-light-italic.svg#PublicSansLightItalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-regular.eot");
+  src:
+    url("./public-sans/public-sans-regular.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-regular.woff2") format("woff2"),
+    url("./public-sans/public-sans-regular.woff") format("woff"),
+    url("./public-sans/public-sans-regular.ttf") format("truetype"),
+    url("./public-sans/public-sans-regular.svg#PublicSansRegular") format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-italic.eot");
+  src:
+    url("./public-sans/public-sans-italic.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-italic.woff") format("woff"),
+    url("./public-sans/public-sans-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-italic.svg#PublicSansItalic") format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-medium.eot");
+  src:
+    url("./public-sans/public-sans-medium.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-medium.woff2") format("woff2"),
+    url("./public-sans/public-sans-medium.woff") format("woff"),
+    url("./public-sans/public-sans-medium.ttf") format("truetype"),
+    url("./public-sans/public-sans-medium.svg#PublicSansMedium") format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-medium-italic.eot");
+  src:
+    url("./public-sans/public-sans-medium-italic.eot")
+      format("embedded-opentype"),
+    url("./public-sans/public-sans-medium-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-medium-italic.woff") format("woff"),
+    url("./public-sans/public-sans-medium-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-medium-italic.svg#PublicSansMediumItalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-semi-bold.eot");
+  src:
+    url("./public-sans/public-sans-semi-bold.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-semi-bold.woff2") format("woff2"),
+    url("./public-sans/public-sans-semi-bold.woff") format("woff"),
+    url("./public-sans/public-sans-semi-bold.ttf") format("truetype"),
+    url("./public-sans/public-sans-semi-bold.svg#PublicSansSemiBold")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-semi-bold-italic.eot");
+  src:
+    url("./public-sans/public-sans-semi-bold-italic.eot")
+      format("embedded-opentype"),
+    url("./public-sans/public-sans-semi-bold-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-semi-bold-italic.woff") format("woff"),
+    url("./public-sans/public-sans-semi-bold-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-semi-bold-italic.svg#PublicSansSemiBoldItalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-bold.eot");
+  src:
+    url("./public-sans/public-sans-bold.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-bold.woff2") format("woff2"),
+    url("./public-sans/public-sans-bold.woff") format("woff"),
+    url("./public-sans/public-sans-bold.ttf") format("truetype"),
+    url("./public-sans/public-sans-bold.svg#PublicSansBold") format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-bold-italic.eot");
+  src:
+    url("./public-sans/public-sans-bold-italic.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-bold-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-bold-italic.woff") format("woff"),
+    url("./public-sans/public-sans-bold-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-bold-italic.svg#PublicSansBoldItalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-extra-bold.eot");
+  src:
+    url("./public-sans/public-sans-extra-bold.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-extra-bold.woff2") format("woff2"),
+    url("./public-sans/public-sans-extra-bold.woff") format("woff"),
+    url("./public-sans/public-sans-extra-bold.ttf") format("truetype"),
+    url("./public-sans/public-sans-extra-bold.svg#PublicSansExtraBold")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-extra-bold-italic.eot");
+  src:
+    url("./public-sans/public-sans-extra-bold-italic.eot")
+      format("embedded-opentype"),
+    url("./public-sans/public-sans-extra-bold-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-extra-bold-italic.woff") format("woff"),
+    url("./public-sans/public-sans-extra-bold-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-extra-bold-italic.svg#PublicSansExtraBoldItalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("./public-sans/public-sans-black.eot");
+  src:
+    url("./public-sans/public-sans-black.eot") format("embedded-opentype"),
+    url("./public-sans/public-sans-black.woff2") format("woff2"),
+    url("./public-sans/public-sans-black.woff") format("woff"),
+    url("./public-sans/public-sans-black.ttf") format("truetype"),
+    url("./public-sans/public-sans-black.svg#PublicSansBlack") format("svg");
+}
+
+@font-face {
+  font-family: "PublicSans";
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+  src: url("./public-sans/public-sans-black-italic.eot");
+  src:
+    url("./public-sans/public-sans-black-italic.eot")
+      format("embedded-opentype"),
+    url("./public-sans/public-sans-black-italic.woff2") format("woff2"),
+    url("./public-sans/public-sans-black-italic.woff") format("woff"),
+    url("./public-sans/public-sans-black-italic.ttf") format("truetype"),
+    url("./public-sans/public-sans-black-italic.svg#PublicSansBlackItalic")
+      format("svg");
+}

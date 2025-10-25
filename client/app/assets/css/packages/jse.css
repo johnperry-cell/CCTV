@@ -1,0 +1,120 @@
+:root {
+  --jse-theme-color: rgb(var(--color-neutral-400));
+  --jse-theme-color-highlight: rgb(var(--color-neutral-300));
+}
+
+.dark {
+  --jse-theme: dark;
+
+  /* over all fonts, sizes, and colors */
+  --jse-theme-color: rgb(var(--color-neutral-600));
+  --jse-theme-color-highlight: rgb(var(--color-neutral-500));
+  --jse-background-color: rgb(var(--color-neutral-900));
+  --jse-text-color: rgb(var(--color-neutral-300));
+  --jse-text-color-inverse: rgb(var(--color-neutral-300));
+
+  /* main, menu, modal */
+  --jse-main-border: 1px solid #4f4f4f;
+  --jse-menu-color: rgb(var(--color-neutral-200));
+  --jse-modal-background: #2f2f2f;
+  --jse-modal-overlay-background: rgba(0, 0, 0, 0.5);
+  --jse-modal-code-background: #2f2f2f;
+
+  /* tooltip in text mode */
+  --jse-tooltip-color: var(--jse-text-color);
+  --jse-tooltip-background: #4b4b4b;
+  --jse-tooltip-border: 1px solid #737373;
+  --jse-tooltip-action-button-color: inherit;
+  --jse-tooltip-action-button-background: #737373;
+
+  /* panels: navigation bar, gutter, search box */
+  --jse-panel-background: rgb(var(--color-neutral-800));
+  --jse-panel-background-border: 1px solid rgb(var(--color-neutral-600));
+  --jse-panel-color: var(--jse-text-color);
+  --jse-panel-color-readonly: rgb(var(--color-neutral-400));
+  --jse-panel-border: 1px solid #3c3c3c;
+  --jse-panel-button-color-highlight: #e5e5e5;
+  --jse-panel-button-background-highlight: rgb(var(--color-neutral-700));
+
+  /* navigation-bar */
+  --jse-navigation-bar-background: rgb(var(--color-neutral-600));
+  --jse-navigation-bar-background-highlight: rgb(var(--color-neutral-500));
+  --jse-navigation-bar-dropdown-color: var(--jse-text-color);
+
+  /* context menu */
+  --jse-context-menu-background: rgb(var(--color-neutral-600));
+  --jse-context-menu-background-highlight: #595959;
+  --jse-context-menu-separator-color: #595959;
+  --jse-context-menu-color: var(--jse-text-color);
+  --jse-context-menu-pointer-background: #737373;
+  --jse-context-menu-pointer-background-highlight: #818181;
+  --jse-context-menu-pointer-color: var(--jse-context-menu-color);
+
+  /* contents: json key and values */
+  --jse-key-color: #9cdcfe;
+  --jse-value-color: var(--jse-text-color);
+  --jse-value-color-number: #b5cea8;
+  --jse-value-color-boolean: #569cd6;
+  --jse-value-color-null: #569cd6;
+  --jse-value-color-string: #ce9178;
+  --jse-value-color-url: #ce9178;
+  --jse-delimiter-color: #949494;
+  --jse-edit-outline: 2px solid var(--jse-text-color);
+
+  /* contents: selected or hovered */
+  --jse-selection-background-color: rgb(var(--color-neutral-600));
+  --jse-selection-background-inactive-color: rgb(var(--color-neutral-600));
+  --jse-hover-background-color: rgb(var(--color-neutral-700));
+  --jse-active-line-background-color: rgba(255, 255, 255, 0.06);
+  --jse-search-match-background-color: #343434;
+
+  /* contents: section of collapsed items in an array */
+  --jse-collapsed-items-background-color: #333333;
+  --jse-collapsed-items-selected-background-color: #565656;
+  --jse-collapsed-items-link-color: #b2b2b2;
+  --jse-collapsed-items-link-color-highlight: #ec8477;
+
+  /* contents: highlighting of search results */
+  --jse-search-match-color: #724c27;
+  --jse-search-match-outline: 1px solid #966535;
+  --jse-search-match-active-color: #9f6c39;
+  --jse-search-match-active-outline: 1px solid #bb7f43;
+
+  /* contents: inline tags inside the JSON document */
+  --jse-tag-background: #444444;
+  --jse-tag-color: #bdbdbd;
+
+  /* contents: table */
+  --jse-table-header-background: rgb(var(--color-neutral-800));
+  --jse-table-header-background-highlight: rgb(var(--color-neutral-700));
+  --jse-table-row-odd-background: rgb(var(--color-neutral-900));
+
+  /* controls in modals: inputs, buttons, and `a` */
+  --jse-input-background: #3d3d3d;
+  --jse-input-border: var(--jse-main-border);
+  --jse-button-background: #808080;
+  --jse-button-background-highlight: #7a7a7a;
+  --jse-button-color: #e0e0e0;
+  --jse-button-secondary-background: #494949;
+  --jse-button-secondary-background-highlight: #5d5d5d;
+  --jse-button-secondary-background-disabled: #9d9d9d;
+  --jse-button-secondary-color: var(--jse-text-color);
+  --jse-a-color: #55abff;
+  --jse-a-color-highlight: #4387c9;
+
+  /* svelte-select */
+  --jse-svelte-select-background: #3d3d3d;
+  --jse-svelte-select-border: 1px solid #4f4f4f;
+  --list-background: #3d3d3d;
+  --item-hover-bg: #505050;
+  --multi-item-bg: #5b5b5b;
+  --input-color: #d4d4d4;
+  --multi-clear-bg: #8a8a8a;
+  --multi-item-clear-icon-color: #d4d4d4;
+  --multi-item-outline: 1px solid #696969;
+  --list-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+
+  /* color picker */
+  --jse-color-picker-background: #656565;
+  --jse-color-picker-border-box-shadow: #8c8c8c 0 0 0 1px;
+}

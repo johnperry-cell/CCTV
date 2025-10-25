@@ -1,0 +1,77 @@
+@utility h-screen {
+  height: 100vh;
+  height: 100dvh;
+  height: 100svh;
+}
+
+/* prettier-ignore */
+@utility h-screen-* {
+  height: --value(integer, [integer])vh;
+  height: --value(integer, [integer])dvh;
+  height: --value(integer, [integer])svh;
+}
+
+@utility min-h-screen {
+  min-height: 100vh;
+  min-height: 100dvh;
+  min-height: 100svh;
+}
+
+/* prettier-ignore */
+@utility min-h-screen-* {
+  min-height: --value(integer, [integer])vh;
+  min-height: --value(integer, [integer])dvh;
+  min-height: --value(integer, [integer])svh;
+}
+
+@utility max-h-screen {
+  max-height: 100vh;
+  max-height: 100dvh;
+  max-height: 100svh;
+}
+
+/* prettier-ignore */
+@utility max-h-screen-* {
+  max-height: --value(integer, [integer])vh;
+  max-height: --value(integer, [integer])dvh;
+  max-height: --value(integer, [integer])svh;
+}
+
+@utility w-screen {
+  width: 100vw;
+  width: 100dvw;
+  width: 100svw;
+}
+
+/* prettier-ignore */
+@utility w-screen-* {
+  width: --value(integer, [integer])vw;
+  width: --value(integer, [integer])dvw;
+  width: --value(integer, [integer])svw;
+}
+
+@utility min-w-screen {
+  min-width: 100vw;
+  min-width: 100dvw;
+  min-width: 100svw;
+}
+
+/* prettier-ignore */
+@utility min-w-screen-* {
+  min-width: --value(integer, [integer])vw;
+  min-width: --value(integer, [integer])dvw;
+  min-width: --value(integer, [integer])svw;
+}
+
+@utility max-w-screen {
+  max-width: 100vw;
+  max-width: 100dvw;
+  max-width: 100svw;
+}
+
+/* prettier-ignore */
+@utility max-w-screen-* {
+  max-width: --value(integer, [integer])vw;
+  max-width: --value(integer, [integer])dvw;
+  max-width: --value(integer, [integer])svw;
+}

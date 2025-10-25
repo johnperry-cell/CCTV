@@ -1,0 +1,171 @@
+{
+  "folders": [
+    {
+      "name": "workspace",
+      "path": "."
+    },
+    {
+      "path": "api"
+    },
+    {
+      "path": "client"
+    }
+  ],
+  "settings": {
+    "task.allowAutomaticTasks": "off",
+    "tailwindCSS.experimental.classRegex": [
+      ["ui:\\s*{([^)]*)\\s*}", "[\"'`]([^\"'`]*).*?[\"'`]"],
+      ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+      ["/\\*\\s?ui\\s?\\*/\\s*{([^;]*)}", ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
+    "tailwindCSS.classAttributes": [
+      "class",
+      "className",
+      "ngClass",
+      "ui",
+      "active-class",
+      "inactive-class",
+
+      "enter-from-class",
+      "leave-to-class",
+      "enter-active-clas",
+      "leave-active-class",
+      "enter-to-class",
+      "leave-from-class"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start Server (API + Queue + Client + Schedule)",
+        "dependsOn": ["API", "Queue", "Client", "Schedule"],
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Preview Build",
+        "type": "shell",
+        "command": "npm run preview",
+        "windows": {
+          "command": "npm run preview"
+        },
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}/../client"
+        }
+      },
+      {
+        "label": "Build",
+        "type": "shell",
+        "command": "npm run build",
+        "windows": {
+          "command": "npm run build"
+        },
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}/client"
+        }
+      },
+      {
+        "label": "Client",
+        "type": "shell",
+        "command": "npm run dev",
+        "windows": {
+          "command": "npm run dev"
+        },
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}/client"
+        }
+      },
+      {
+        "label": "API",
+        "type": "shell",
+        "command": "php artisan serve --host=0.0.0.0 --port=8000",
+        "windows": {
+          "command": "php artisan serve --host=0.0.0.0 --port=8000"
+        },
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}/api"
+        }
+      },
+      {
+        "label": "Schedule",
+        "type": "shell",
+        "command": "php artisan schedule:work",
+        "windows": {
+          "command": "php artisan schedule:work"
+        },
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}/api"
+        }
+      },
+      {
+        "label": "Queue",
+        "type": "shell",
+        "command": "php artisan queue:work",
+        "windows": {
+          "command": "php artisan queue:work"
+        },
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}/api"
+        }
+      }
+    ]
+  }
+}

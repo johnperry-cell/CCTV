@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@plugin "@tailwindcss/typography";
+@plugin 'tailwind-scrollbar';
+
+@import "vue-accessible-color-picker/styles";
+@import "v-calendar/dist/style.css";
+
+@import "./tailwind.base.css";
+@import "./tailwind.components.css";
+@import "./tailwind.utilities.css";
+
+@import "./packages/v-calendar.css";
+
+@source "@/plugins/colors/safelist.ts";

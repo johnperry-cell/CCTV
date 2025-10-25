@@ -1,0 +1,19 @@
+@import "./fonts/public-sans.css";
+@import "./utils/colors.css";
+@import "./utils/animations.css";
+@import "./utils/background.css";
+@import "./utils/dotsBg.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "PublicSans", sans-serif;
+
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
+  --breakpoint-5xl: 3840px;
+}
+
+* {
+  @apply scrollbar-thin;
+}
